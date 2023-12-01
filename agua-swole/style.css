@@ -1,0 +1,100 @@
+/* Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto&display=swap');
+
+  /*
+  font-family: 'Marck Script', cursive;
+  font-family: 'Roboto', sans-serif;
+  */
+
+#container {
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header {
+    background: #5E815E;
+} */
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    background: #5E815E;
+    display: block;
+    margin: 3px;
+    padding: 10px;
+}
+
+/* header {
+    border-bottom: 2px solid #5E815E;
+} */
+
+header img {
+    max-width: 100px;
+}
+
+header h1 {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    color: #5E815E;
+    font-size: 3rem;
+}
+
+header p {
+    text-align: center;
+    color: #5E815E;
+}
+
+main img {
+    max-width: 300px;
+    float: right;
+}
+
+main section:nth-of-type(2) {
+    display: flex;
+
+}
+
+main section:nth-of-type(2) a {
+    text-decoration: none;
+    color: #FFF;
+    background: #5E815E;
+    padding: 10px;
+    margin: 10px;
+}
+
+main h1 {
+    /* color: #E13133; */
+}
+
+main section:nth-of-type(2) h1:nth-of-type(1) a {
+    background-color: #E13133;
+}
+
+main section:nth-of-type(3) h1:nth-of-type(1) {
+    font-size: 5rem;
+    color: #E13133;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    border-color: #E13133;
+    border-top: 2px solid #5E815E;
+    
+    
+}
+
+footer a {
+    text-decoration: underline;
+    color: #5E815E;
+}
